@@ -8,7 +8,7 @@
 * Complier： g++ 7.4
 
 ## Technical points
-* 使用Epoll水平触发的IO多路复用技术，非阻塞IO，使用Reactor模式
+* 基于Reactor模式，使用IO多路复用+非阻塞IO。
 * 使用多线程充分利用多核CPU，服务器创线程池避免线程频繁创建和销毁的开销，客户端采用双线程，分别负责读写标准IO和sockfd，实现同步读写
 * 主线程只负责accept请求，并以Round Robin的方式分发给其他IO线程
 * 利用LengthHead对消息进行编解码，服务器自动分发消息
