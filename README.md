@@ -16,6 +16,7 @@
 * 为减少锁争用，使用copy-on-write技术
 * 实现了线程的异步唤醒
 * 客户端实现了自动重连
+* 实现了定时器功能
 * 实现了高性能异步日志，采用双缓冲技术，前台线程写缓冲，后台线程写磁盘
 
 ## [MODEL](https://github.com/duyongtju/Chat/blob/master/Model.md)
