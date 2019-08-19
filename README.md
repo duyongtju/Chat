@@ -24,9 +24,11 @@
 
 ## Model
 
-![MODEL](https://github.com/duyongtju/Chat/blob/master/Model.md)
-
 并发模型为Reactor+非阻塞IO+线程池，主线程负责accept新连接，并以Round Robin的方式分发连接
+
+![并发模型](https://github.com/duyongtju/Chat/blob/master/datum/model.png)
+
+
 
 ## [连接维护](https://github.com/duyongtju/Chat/blob/master/%E8%BF%9E%E6%8E%A5%E7%BB%B4%E6%8A%A4.md)
 
@@ -36,4 +38,4 @@
 
 ## 代码统计
 
-![cloc](https://https://github.com/duyongtju/Chat/blob/master/datum/cloc.png)
+![cloc](https://github.com/duyongtju/Chat/blob/master/datum/cloc.png)
