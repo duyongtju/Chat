@@ -1,8 +1,8 @@
 #ifndef MUDUO_NET_EVENTLOOPTHREADPOOL_H
 #define MUDUO_NET_EVENTLOOPTHREADPOOL_H
 
-#include "muduo/base/noncopyable.h"
-#include "muduo/base/Types.h"
+#include "../base/noncopyable.h"
+#include "../base/Types.h"
 
 #include <functional>
 #include <memory>

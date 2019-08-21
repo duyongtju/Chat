@@ -1,8 +1,8 @@
-#include "muduo/net/SocketsOps.h"
+#include "SocketsOps.h"
 
-#include "muduo/base/Logging.h"
-#include "muduo/base/Types.h"
-#include "muduo/net/Endian.h"
+#include "../base/Logging.h"
+#include "../base/Types.h"
+#include "Endian.h"
 
 #include <errno.h>
 #include <fcntl.h>

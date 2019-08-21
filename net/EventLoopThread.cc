@@ -1,6 +1,6 @@
-#include "muduo/net/EventLoopThread.h"
+#include "EventLoopThread.h"
 
-#include "muduo/net/EventLoop.h"
+#include "EventLoop.h"
 
 using namespace muduo;
 using namespace muduo::net;

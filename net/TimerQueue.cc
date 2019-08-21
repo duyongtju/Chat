@@ -2,12 +2,12 @@
 #define __STDC_LIMIT_MACROS
 #endif
 
-#include "muduo/net/TimerQueue.h"
+#include "TimerQueue.h"
 
-#include "muduo/base/Logging.h"
-#include "muduo/net/EventLoop.h"
-#include "muduo/net/Timer.h"
-#include "muduo/net/TimerId.h"
+#include "../base/Logging.h"
+#include "EventLoop.h"
+#include "Timer.h"
+#include "TimerId.h"
 
 #include <sys/timerfd.h>
 #include <unistd.h>

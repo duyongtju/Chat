@@ -3,8 +3,8 @@
 
 #include <functional>
 
-#include "muduo/net/Channel.h"
-#include "muduo/net/Socket.h"
+#include "Channel.h"
+#include "Socket.h"
 
 namespace muduo
 {

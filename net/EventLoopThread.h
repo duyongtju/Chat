@@ -1,9 +1,9 @@
 #ifndef MUDUO_NET_EVENTLOOPTHREAD_H
 #define MUDUO_NET_EVENTLOOPTHREAD_H
 
-#include "muduo/base/Condition.h"
-#include "muduo/base/Mutex.h"
-#include "muduo/base/Thread.h"
+#include "../base/Condition.h"
+#include "../base/Mutex.h"
+#include "../base/Thread.h"
 
 namespace muduo
 {

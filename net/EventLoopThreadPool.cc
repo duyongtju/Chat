@@ -1,7 +1,7 @@
-#include "muduo/net/EventLoopThreadPool.h"
+#include "EventLoopThreadPool.h"
 
-#include "muduo/net/EventLoop.h"
-#include "muduo/net/EventLoopThread.h"
+#include "EventLoop.h"
+#include "EventLoopThread.h"
 
 #include <stdio.h>
 

@@ -4,10 +4,10 @@
 #include <set>
 #include <vector>
 
-#include "muduo/base/Mutex.h"
-#include "muduo/base/Timestamp.h"
-#include "muduo/net/Callbacks.h"
-#include "muduo/net/Channel.h"
+#include "../base/Mutex.h"
+#include "../base/Timestamp.h"
+#include "Callbacks.h"
+#include "Channel.h"
 
 namespace muduo
 {

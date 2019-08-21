@@ -1,6 +1,6 @@
-#include "muduo/net/Buffer.h"
+#include "Buffer.h"
 
-#include "muduo/net/SocketsOps.h"
+#include "SocketsOps.h"
 
 #include <errno.h>
 #include <sys/uio.h>

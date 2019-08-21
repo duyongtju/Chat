@@ -7,11 +7,11 @@
 
 #include <boost/any.hpp>
 
-#include "muduo/base/Mutex.h"
-#include "muduo/base/CurrentThread.h"
-#include "muduo/base/Timestamp.h"
-#include "muduo/net/Callbacks.h"
-#include "muduo/net/TimerId.h"
+#include "../base/Mutex.h"
+#include "../base/CurrentThread.h"
+#include "../base/Timestamp.h"
+#include "Callbacks.h"
+#include "TimerId.h"
 
 namespace muduo
 {

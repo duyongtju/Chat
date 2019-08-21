@@ -1,9 +1,9 @@
 #ifndef MUDUO_NET_TIMER_H
 #define MUDUO_NET_TIMER_H
 
-#include "muduo/base/Atomic.h"
-#include "muduo/base/Timestamp.h"
-#include "muduo/net/Callbacks.h"
+#include "../base/Atomic.h"
+#include "../base/Timestamp.h"
+#include "Callbacks.h"
 
 namespace muduo
 {

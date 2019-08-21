@@ -1,9 +1,9 @@
-#include "muduo/net/Connector.h"
+#include "Connector.h"
 
-#include "muduo/base/Logging.h"
-#include "muduo/net/Channel.h"
-#include "muduo/net/EventLoop.h"
-#include "muduo/net/SocketsOps.h"
+#include "../base/Logging.h"
+#include "Channel.h"
+#include "EventLoop.h"
+#include "SocketsOps.h"
 
 #include <errno.h>
 

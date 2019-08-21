@@ -1,8 +1,8 @@
-#include "muduo/net/Socket.h"
+#include "Socket.h"
 
-#include "muduo/base/Logging.h"
-#include "muduo/net/InetAddress.h"
-#include "muduo/net/SocketsOps.h"
+#include "../base/Logging.h"
+#include "InetAddress.h"
+#include "SocketsOps.h"
 
 #include <netinet/in.h>
 #include <netinet/tcp.h>
