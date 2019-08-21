@@ -1,5 +1,7 @@
 #include "ThreadPool.h"
 
+#include "Exception.h"
+
 #include <assert.h>
 #include <stdio.h>
 
@@ -110,18 +112,38 @@ bool ThreadPool::isFull() const
 
 void ThreadPool::runInThread()
 {
-
-  if (threadInitCallback_)
+  try
   {
-    threadInitCallback_();
-  }
-  while (running_)
-  {
-    Task task(take());
-    if (task)
+    if (threadInitCallback_)
     {
-      task();
+      threadInitCallback_();
     }
+    while (running_)
+    {
+      Task task(take());
+      if (task)
+      {
+        task();
+      }
+    }
+  }
+  catch (const Exception& ex)
+  {
+    fprintf(stderr, "exception caught in ThreadPool %s\n", name_.c_str());
+    fprintf(stderr, "reason: %s\n", ex.what());
+    fprintf(stderr, "stack trace: %s\n", ex.stackTrace());
+    abort();
+  }
+  catch (const std::exception& ex)
+  {
+    fprintf(stderr, "exception caught in ThreadPool %s\n", name_.c_str());
+    fprintf(stderr, "reason: %s\n", ex.what());
+    abort();
+  }
+  catch (...)
+  {
+    fprintf(stderr, "unknown exception caught in ThreadPool %s\n", name_.c_str());
+    throw; // rethrow
   }
 }
 
