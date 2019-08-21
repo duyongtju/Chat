@@ -1,8 +1,8 @@
-#include "muduo/net/poller/PollPoller.h"
+#include "PollPoller.h"
 
-#include "muduo/base/Logging.h"
-#include "muduo/base/Types.h"
-#include "muduo/net/Channel.h"
+#include "../../base/Logging.h"
+#include "../../base/Types.h"
+#include "../Channel.h"
 
 #include <assert.h>
 #include <errno.h>
