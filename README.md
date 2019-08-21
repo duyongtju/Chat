@@ -51,6 +51,6 @@
 * 客户端2
 ![客户端2](https://github.com/duyongtju/Chat/blob/master/datum/Client2.png)
 * 自动重连
-![自动重连](https://github.com/duyongtju/Chat/blob/master/datum/%E8%87%AA%E5%8A%A8%E9%87%8D%E8%BF%9E.png)
+![自动重连](https://github.com/duyongtju/Chat/blob/master/datum/Reconnection.png)
 
 
