@@ -1,12 +1,12 @@
 #ifndef MUDUO_BASE_ASYNCLOGGING_H
 #define MUDUO_BASE_ASYNCLOGGING_H
 
-#include "muduo/base/BlockingQueue.h"
-#include "muduo/base/BoundedBlockingQueue.h"
-#include "muduo/base/CountDownLatch.h"
-#include "muduo/base/Mutex.h"
-#include "muduo/base/Thread.h"
-#include "muduo/base/LogStream.h"
+#include "BlockingQueue.h"
+#include "BoundedBlockingQueue.h"
+#include "CountDownLatch.h"
+#include "Mutex.h"
+#include "Thread.h"
+#include "LogStream.h"
 
 #include <atomic>
 #include <vector>

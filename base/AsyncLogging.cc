@@ -1,6 +1,6 @@
-#include "muduo/base/AsyncLogging.h"
-#include "muduo/base/LogFile.h"
-#include "muduo/base/Timestamp.h"
+#include "AsyncLogging.h"
+#include "LogFile.h"
+#include "Timestamp.h"
 
 #include <stdio.h>
 

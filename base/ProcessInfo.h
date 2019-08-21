@@ -1,9 +1,9 @@
 #ifndef MUDUO_BASE_PROCESSINFO_H
 #define MUDUO_BASE_PROCESSINFO_H
 
-#include "muduo/base/StringPiece.h"
-#include "muduo/base/Types.h"
-#include "muduo/base/Timestamp.h"
+#include "StringPiece.h"
+#include "Types.h"
+#include "Timestamp.h"
 #include <vector>
 #include <sys/types.h>
 

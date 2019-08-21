@@ -1,4 +1,4 @@
-#include "muduo/base/CurrentThread.h"
+#include "CurrentThread.h"
 
 #include <cxxabi.h>
 #include <execinfo.h>

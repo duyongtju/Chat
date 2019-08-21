@@ -1,7 +1,7 @@
 #ifndef MUDUO_BASE_ATOMIC_H
 #define MUDUO_BASE_ATOMIC_H
 
-#include "muduo/base/noncopyable.h"
+#include "noncopyable.h"
 
 #include <stdint.h>
 

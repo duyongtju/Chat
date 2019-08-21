@@ -1,7 +1,7 @@
-#include "muduo/base/Thread.h"
-#include "muduo/base/CurrentThread.h"
-#include "muduo/base/Exception.h"
-#include "muduo/base/Logging.h"
+#include "Thread.h"
+#include "CurrentThread.h"
+#include "Exception.h"
+#include "Logging.h"
 
 #include <type_traits>
 

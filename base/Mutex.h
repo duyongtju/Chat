@@ -1,8 +1,8 @@
 #ifndef MUDUO_BASE_MUTEX_H
 #define MUDUO_BASE_MUTEX_H
 
-#include "muduo/base/CurrentThread.h"
-#include "muduo/base/noncopyable.h"
+#include "CurrentThread.h"
+#include "noncopyable.h"
 #include <assert.h>
 #include <pthread.h>
 

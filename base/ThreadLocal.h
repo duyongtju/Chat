@@ -1,8 +1,8 @@
 #ifndef MUDUO_BASE_THREADLOCAL_H
 #define MUDUO_BASE_THREADLOCAL_H
 
-#include "muduo/base/Mutex.h"
-#include "muduo/base/noncopyable.h"
+#include "Mutex.h"
+#include "noncopyable.h"
 
 #include <pthread.h>
 

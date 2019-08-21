@@ -1,9 +1,9 @@
 #ifndef MUDUO_BASE_LOGSTREAM_H
 #define MUDUO_BASE_LOGSTREAM_H
 
-#include "muduo/base/noncopyable.h"
-#include "muduo/base/StringPiece.h"
-#include "muduo/base/Types.h"
+#include "noncopyable.h"
+#include "StringPiece.h"
+#include "Types.h"
 #include <assert.h>
 #include <string.h> // memcpy
 

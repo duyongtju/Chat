@@ -1,8 +1,8 @@
-#include "muduo/base/Logging.h"
+#include "Logging.h"
 
-#include "muduo/base/CurrentThread.h"
-#include "muduo/base/Timestamp.h"
-#include "muduo/base/TimeZone.h"
+#include "CurrentThread.h"
+#include "Timestamp.h"
+#include "TimeZone.h"
 
 #include <errno.h>
 #include <stdio.h>
