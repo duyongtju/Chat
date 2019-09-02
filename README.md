@@ -36,7 +36,7 @@
 * 限制最大并发连接数
 * 断开连接
 
-详情见 [连接维护](https://github.com/duyongtju/Chat/blob/master/%E8%BF%9E%E6%8E%A5%E7%BB%B4%E6%8A%A4.md)
+详情见 [连接维护](https://github.com/duyongtju/Chat/blob/master/Connection.md)
 
 ## 代码统计
 
