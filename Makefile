@@ -15,6 +15,7 @@ clean:
 	find . -name '*.o' | xargs rm -f
 veryclean:
 	find . -name '*.o' | xargs rm -f
+	find . -name '*.log' | xargs rm -f
 	find . -name 'Server' | xargs rm -f
 	find . -name 'Client' | xargs rm -f
 
